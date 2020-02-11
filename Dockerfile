@@ -1,4 +1,4 @@
-FROM php:7.4.2-fpm
+FROM php:7.3.14-fpm
 
 #Copy drivers ORACLE 18c
 COPY oracle-instantclient18.5-basic-18.5.0.0.0-3.x86_64.rpm /tmp/oracle-oci18.rpm
